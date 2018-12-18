@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F060B562198015A0068E042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F060B552198015A0068E042 /* AppDelegate.swift */; };
+		3F060B582198015A0068E042 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F060B572198015A0068E042 /* ViewController.swift */; };
+		3F060B5B2198015A0068E042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F060B592198015A0068E042 /* Main.storyboard */; };
+		3F060B5D2198015A0068E042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F060B5C2198015A0068E042 /* Assets.xcassets */; };
+		3F060B602198015A0068E042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F060B5E2198015A0068E042 /* LaunchScreen.storyboard */; };
+		3F060B6B2198015A0068E042 /* ____TextField_TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F060B6A2198015A0068E042 /* ____TextField_TableViewTests.swift */; };
+		3F060B762198015A0068E042 /* ____TextField_TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F060B752198015A0068E042 /* ____TextField_TableViewUITests.swift */; };
+		3F060B85219802390068E042 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F060B84219802390068E042 /* Teacher.swift */; };
+		3F060B872198024B0068E042 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F060B862198024B0068E042 /* Student.swift */; };
+		3F060B892198036A0068E042 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F060B882198036A0068E042 /* Person.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F060B672198015A0068E042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F060B4A2198015A0068E042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F060B512198015A0068E042;
+			remoteInfo = "实验八_TextField和TableView";
+		};
+		3F060B722198015A0068E042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F060B4A2198015A0068E042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F060B512198015A0068E042;
+			remoteInfo = "实验八_TextField和TableView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F060B522198015A0068E042 /* 实验八_TextField和TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "实验八_TextField和TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F060B552198015A0068E042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F060B572198015A0068E042 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F060B5A2198015A0068E042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F060B5C2198015A0068E042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F060B5F2198015A0068E042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F060B612198015A0068E042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F060B662198015A0068E042 /* 实验八_TextField和TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "实验八_TextField和TableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F060B6A2198015A0068E042 /* ____TextField_TableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____TextField_TableViewTests.swift"; sourceTree = "<group>"; };
+		3F060B6C2198015A0068E042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F060B712198015A0068E042 /* 实验八_TextField和TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "实验八_TextField和TableViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F060B752198015A0068E042 /* ____TextField_TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____TextField_TableViewUITests.swift"; sourceTree = "<group>"; };
+		3F060B772198015A0068E042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F060B84219802390068E042 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		3F060B862198024B0068E042 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		3F060B882198036A0068E042 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F060B4F2198015A0068E042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F060B632198015A0068E042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F060B6E2198015A0068E042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F060B492198015A0068E042 = {
+			isa = PBXGroup;
+			children = (
+				3F060B542198015A0068E042 /* 实验八_TextField和TableView */,
+				3F060B692198015A0068E042 /* 实验八_TextField和TableViewTests */,
+				3F060B742198015A0068E042 /* 实验八_TextField和TableViewUITests */,
+				3F060B532198015A0068E042 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F060B532198015A0068E042 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F060B522198015A0068E042 /* 实验八_TextField和TableView.app */,
+				3F060B662198015A0068E042 /* 实验八_TextField和TableViewTests.xctest */,
+				3F060B712198015A0068E042 /* 实验八_TextField和TableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F060B542198015A0068E042 /* 实验八_TextField和TableView */ = {
+			isa = PBXGroup;
+			children = (
+				3F060B83219801DC0068E042 /* TeacherAndStudent */,
+				3F060B552198015A0068E042 /* AppDelegate.swift */,
+				3F060B572198015A0068E042 /* ViewController.swift */,
+				3F060B592198015A0068E042 /* Main.storyboard */,
+				3F060B5C2198015A0068E042 /* Assets.xcassets */,
+				3F060B5E2198015A0068E042 /* LaunchScreen.storyboard */,
+				3F060B612198015A0068E042 /* Info.plist */,
+			);
+			path = "实验八_TextField和TableView";
+			sourceTree = "<group>";
+		};
+		3F060B692198015A0068E042 /* 实验八_TextField和TableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F060B6A2198015A0068E042 /* ____TextField_TableViewTests.swift */,
+				3F060B6C2198015A0068E042 /* Info.plist */,
+			);
+			path = "实验八_TextField和TableViewTests";
+			sourceTree = "<group>";
+		};
+		3F060B742198015A0068E042 /* 实验八_TextField和TableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F060B752198015A0068E042 /* ____TextField_TableViewUITests.swift */,
+				3F060B772198015A0068E042 /* Info.plist */,
+			);
+			path = "实验八_TextField和TableViewUITests";
+			sourceTree = "<group>";
+		};
+		3F060B83219801DC0068E042 /* TeacherAndStudent */ = {
+			isa = PBXGroup;
+			children = (
+				3F060B84219802390068E042 /* Teacher.swift */,
+				3F060B862198024B0068E042 /* Student.swift */,
+				3F060B882198036A0068E042 /* Person.swift */,
+			);
+			path = TeacherAndStudent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F060B512198015A0068E042 /* 实验八_TextField和TableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F060B7A2198015A0068E042 /* Build configuration list for PBXNativeTarget "实验八_TextField和TableView" */;
+			buildPhases = (
+				3F060B4E2198015A0068E042 /* Sources */,
+				3F060B4F2198015A0068E042 /* Frameworks */,
+				3F060B502198015A0068E042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "实验八_TextField和TableView";
+			productName = "实验八_TextField和TableView";
+			productReference = 3F060B522198015A0068E042 /* 实验八_TextField和TableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F060B652198015A0068E042 /* 实验八_TextField和TableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F060B7D2198015A0068E042 /* Build configuration list for PBXNativeTarget "实验八_TextField和TableViewTests" */;
+			buildPhases = (
+				3F060B622198015A0068E042 /* Sources */,
+				3F060B632198015A0068E042 /* Frameworks */,
+				3F060B642198015A0068E042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F060B682198015A0068E042 /* PBXTargetDependency */,
+			);
+			name = "实验八_TextField和TableViewTests";
+			productName = "实验八_TextField和TableViewTests";
+			productReference = 3F060B662198015A0068E042 /* 实验八_TextField和TableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F060B702198015A0068E042 /* 实验八_TextField和TableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F060B802198015A0068E042 /* Build configuration list for PBXNativeTarget "实验八_TextField和TableViewUITests" */;
+			buildPhases = (
+				3F060B6D2198015A0068E042 /* Sources */,
+				3F060B6E2198015A0068E042 /* Frameworks */,
+				3F060B6F2198015A0068E042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F060B732198015A0068E042 /* PBXTargetDependency */,
+			);
+			name = "实验八_TextField和TableViewUITests";
+			productName = "实验八_TextField和TableViewUITests";
+			productReference = 3F060B712198015A0068E042 /* 实验八_TextField和TableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F060B4A2198015A0068E042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = QYS;
+				TargetAttributes = {
+					3F060B512198015A0068E042 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3F060B652198015A0068E042 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F060B512198015A0068E042;
+					};
+					3F060B702198015A0068E042 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F060B512198015A0068E042;
+					};
+				};
+			};
+			buildConfigurationList = 3F060B4D2198015A0068E042 /* Build configuration list for PBXProject "实验八_TextField和TableView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F060B492198015A0068E042;
+			productRefGroup = 3F060B532198015A0068E042 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F060B512198015A0068E042 /* 实验八_TextField和TableView */,
+				3F060B652198015A0068E042 /* 实验八_TextField和TableViewTests */,
+				3F060B702198015A0068E042 /* 实验八_TextField和TableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F060B502198015A0068E042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F060B602198015A0068E042 /* LaunchScreen.storyboard in Resources */,
+				3F060B5D2198015A0068E042 /* Assets.xcassets in Resources */,
+				3F060B5B2198015A0068E042 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F060B642198015A0068E042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F060B6F2198015A0068E042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F060B4E2198015A0068E042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F060B892198036A0068E042 /* Person.swift in Sources */,
+				3F060B85219802390068E042 /* Teacher.swift in Sources */,
+				3F060B582198015A0068E042 /* ViewController.swift in Sources */,
+				3F060B562198015A0068E042 /* AppDelegate.swift in Sources */,
+				3F060B872198024B0068E042 /* Student.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F060B622198015A0068E042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F060B6B2198015A0068E042 /* ____TextField_TableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F060B6D2198015A0068E042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F060B762198015A0068E042 /* ____TextField_TableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F060B682198015A0068E042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F060B512198015A0068E042 /* 实验八_TextField和TableView */;
+			targetProxy = 3F060B672198015A0068E042 /* PBXContainerItemProxy */;
+		};
+		3F060B732198015A0068E042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F060B512198015A0068E042 /* 实验八_TextField和TableView */;
+			targetProxy = 3F060B722198015A0068E042 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F060B592198015A0068E042 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F060B5A2198015A0068E042 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F060B5E2198015A0068E042 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F060B5F2198015A0068E042 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F060B782198015A0068E042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F060B792198015A0068E042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F060B7B2198015A0068E042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "实验八_TextField和TableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110329.----TextField-TableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F060B7C2198015A0068E042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "实验八_TextField和TableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110329.----TextField-TableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F060B7E2198015A0068E042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "实验八_TextField和TableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110329.----TextField-TableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/实验八_TextField和TableView.app/实验八_TextField和TableView";
+			};
+			name = Debug;
+		};
+		3F060B7F2198015A0068E042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "实验八_TextField和TableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110329.----TextField-TableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/实验八_TextField和TableView.app/实验八_TextField和TableView";
+			};
+			name = Release;
+		};
+		3F060B812198015A0068E042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "实验八_TextField和TableViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110329.----TextField-TableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "实验八_TextField和TableView";
+			};
+			name = Debug;
+		};
+		3F060B822198015A0068E042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "实验八_TextField和TableViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-016110329.----TextField-TableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "实验八_TextField和TableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F060B4D2198015A0068E042 /* Build configuration list for PBXProject "实验八_TextField和TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F060B782198015A0068E042 /* Debug */,
+				3F060B792198015A0068E042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F060B7A2198015A0068E042 /* Build configuration list for PBXNativeTarget "实验八_TextField和TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F060B7B2198015A0068E042 /* Debug */,
+				3F060B7C2198015A0068E042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F060B7D2198015A0068E042 /* Build configuration list for PBXNativeTarget "实验八_TextField和TableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F060B7E2198015A0068E042 /* Debug */,
+				3F060B7F2198015A0068E042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F060B802198015A0068E042 /* Build configuration list for PBXNativeTarget "实验八_TextField和TableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F060B812198015A0068E042 /* Debug */,
+				3F060B822198015A0068E042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F060B4A2198015A0068E042 /* Project object */;
+}
